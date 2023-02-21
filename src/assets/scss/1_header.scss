@@ -1,0 +1,38 @@
+.header {
+    margin-top: 10px;
+}
+.header__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.header__left {
+}
+.header__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.header__title {
+    font-weight: 700;
+    font-style: 35px;
+}
+.header__ul {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #474747;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    list-style-position: inside;
+}
+.notList {
+    font-size: 25px;
+}
