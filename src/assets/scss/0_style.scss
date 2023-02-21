@@ -49,3 +49,18 @@ body{
         background-color: #082a48;
     }
 }
+
+@mixin h2Title {
+    font-size: 28px;
+    color: rgba(25,109,182,1);
+    margin-bottom: 25px;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        bottom: -10px;
+    }
+}
