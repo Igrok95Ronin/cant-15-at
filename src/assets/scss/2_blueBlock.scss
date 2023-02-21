@@ -1,0 +1,14 @@
+.blueBlock {
+    background-color: #196db6;
+    padding: 10px 0;
+}
+.blueBlock__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.batWrapper {
+    text-align: center;
+}
+.blueBlock__btn {
+    @include btn;
+}
