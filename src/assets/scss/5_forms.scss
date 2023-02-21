@@ -1,0 +1,12 @@
+.forms {
+    margin: 50px 0 10px;
+}
+.forms__title {
+    font-size: 28px;
+    color: rgba(25,109,182,1);
+    margin-bottom: 25px;
+    text-align: center;
+}
+.forms__button {
+    @include btn;
+}

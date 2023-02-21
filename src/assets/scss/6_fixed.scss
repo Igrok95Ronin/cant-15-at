@@ -1,0 +1,12 @@
+.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none;
+}
+.fixed__btn {
+    @include btn;
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+}

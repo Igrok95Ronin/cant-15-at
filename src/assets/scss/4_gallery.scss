@@ -1,0 +1,11 @@
+.gallery {
+    margin-top: 50px;
+}
+.gallery__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.gallery__img {
+    width: 100%;
+}

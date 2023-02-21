@@ -20,7 +20,8 @@
 }
 .header__title {
     font-weight: 700;
-    font-style: 35px;
+    font-size: clamp(24px, 5vw, 35px);
+    padding: 0 5px;
 }
 .header__ul {
     width: 100%;
